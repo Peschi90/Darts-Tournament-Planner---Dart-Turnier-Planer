@@ -1,4 +1,4 @@
-# Dart Tournament Planner/Dart Turnier Planer – Proprietäre Softwarelizenz (Freemium)
+# Darts Tournament Planner/Darts Turnier Planer – Proprietäre Softwarelizenz (Freemium)
 
 **Version 1.0**
 
@@ -12,7 +12,7 @@ Diese Software („Software“) wird bereitgestellt von:
 
 **Marcel Peschka**   
 **admin@dtp.i3ull3t.de**</br>
-**https://dart-tournament-planner.i3ull3t.de/**
+**https://darts-tournament-planner.i3ull3t.de/**
 
 (im Folgenden „Lizenzgeber“)
 
@@ -140,7 +140,7 @@ This software (“Software”) is provided by:
 
 **Marcel Peschka**  
 **admin@dtp.i3ull3t.de**  
-**https://dart-tournament-planner.i3ull3t.de/**
+**https://darts-tournament-planner.i3ull3t.de/**
 
 (hereinafter referred to as the “Licensor”)
 
