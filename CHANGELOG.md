@@ -1,4 +1,11 @@
-﻿## v0.1.15.2
+﻿## v0.1.16
+### bugfix
+- fixed tournmanet registragion bug
+- fixed user id handling and possibility to add a club  for each user
+- add player dialog doesnt duplicate the users anymore
+- player information can now change anytime in add player dialog
+
+## v0.1.15.2
 ### New Features
 - License Request Email Copy**: Users now receive a copy of the license request email at their provided email address
 - License Request Improvements**: Enhanced email sending reliability and user feedback
