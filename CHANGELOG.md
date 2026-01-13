@@ -1,4 +1,11 @@
-﻿## v0.1.16
+﻿## v0.1.17
+### bugfix
+- fixed tournament synchronisation bug
+- fixed user id handling and possibility to add a club  for each user
+- user account is now nessecary to sync/register tournaments with dashboard.darts-tournament-planner.de
+
+
+## v0.1.16
 ### bugfix
 - fixed tournmanet registragion bug
 - fixed user id handling and possibility to add a club  for each user
