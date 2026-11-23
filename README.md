@@ -1,4 +1,4 @@
-# 🎯 Darts Tournament Planner
+﻿# 🎯 Darts Tournament Planner
 
 **[English](#english)** | **[Deutsch](#deutsch)**
 
@@ -13,7 +13,7 @@ A modern WPF application for managing dart tournaments with professional feature
 ![C#](https://img.shields.io/badge/C%23-13.0-blue)
 ![WPF](https://img.shields.io/badge/WPF-Windows-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-0.1.13-brightgreen)
+![Version](https://img.shields.io/badge/Version-0.1.24-brightgreen)
 
 ### 🏆 Core Features
 
@@ -73,6 +73,7 @@ Intelligent player seeding based on performance data - perfect for fair tourname
 - **Dedicated Statistics Tab**: Separate display for each tournament class
 
 #### 🖨️ **Professional Print System**
+- **Visual template designer**: Adjustable workspace with pages and layers, precise positioning, undo/redo, a visual table-column editor and a paged live preview. Supports Light/Dark and DE/EN. [Designer guide](Docs/PrintTemplateDesigner.md) (German).
 - **Tournament Statistics Printing**: Comprehensive tournament reports with detailed statistics
 - **Print Dialog**: User-friendly interface for selecting print contents
 - **Print Preview**: Real-time preview of documents before printing
@@ -117,7 +118,7 @@ Intelligent player seeding based on performance data - perfect for fair tourname
 #### 🎨 **Theme System**
 - **Light/Dark Mode**: Complete theme support with automatic persistence
 - **One-Click Toggle**: Switch between light and dark modes instantly
-- **Consistent Design**: Uniform theme application across all UI elements
+- **Consistent Design**: Coordinated blue-gray palettes with distinct focus, selection, and status colors
 - **Theme Persistence**: Settings saved and restored on app restart
 - **PowerScoring Dark Mode**: Full dark mode support for all PowerScoring dialogs
 
@@ -185,7 +186,7 @@ Intelligent player seeding based on performance data - perfect for fair tourname
 ### 📦 Installation
 
 #### Automatic Installation (Recommended)
-1. Download the latest `Setup-DartsTournamentPlanner-v0.1.13.exe` from [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases)
+1. Download the latest `Setup-DartsTournamentPlanner-vX.Y.Z.exe` from [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases)
 2. Run the installer (administrator rights may be required)
 3. Follow the installation wizard
 4. Start the application via desktop shortcut or start menu
@@ -284,7 +285,7 @@ Intelligent player seeding based on performance data - perfect for fair tourname
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
-**Current Version: v0.1.13**
+**Current development version: v0.1.24**
 - ⚡ PowerScoring System with intelligent player seeding
 - 🎨 Complete dark mode support for all components
 - 🆔 Custom Tournament-ID with persistence
@@ -340,7 +341,7 @@ Eine moderne WPF-Anwendung für die Verwaltung von Dart-Turnieren mit profession
 ![C#](https://img.shields.io/badge/C%23-13.0-blue)
 ![WPF](https://img.shields.io/badge/WPF-Windows-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-0.1.13-brightgreen)
+![Version](https://img.shields.io/badge/Version-0.1.24-brightgreen)
 
 ### 🏆 Kern-Features
 
@@ -400,6 +401,7 @@ Intelligente Spieler-Einteilung basierend auf Leistungsdaten - perfekt für fair
 - **Dedizierter Statistiken-Tab**: Separate Anzeige für jede Turnierklasse
 
 #### 🖨️ **Professionelles Druck-System**
+- **Visueller Vorlagen-Designer**: Anpassbare Arbeitsfläche mit Seiten und Ebenen, präzise Positionierung, Undo/Redo, visueller Tabellenspalten-Editor und mehrseitige Live-Vorschau. Unterstützt Light/Dark und DE/EN. [Aufbau und Bedienung](Docs/PrintTemplateDesigner.md).
 - **Turnier-Statistiken-Druck**: Umfassende Turnierberichte mit detaillierten Statistiken
 - **Druck-Dialog**: Benutzerfreundliche Oberfläche zur Auswahl der Druckinhalte
 - **Druckvorschau**: Echtzeit-Vorschau von Dokumenten vor dem Druck
@@ -444,7 +446,7 @@ Intelligente Spieler-Einteilung basierend auf Leistungsdaten - perfekt für fair
 #### 🎨 **Theme-System**
 - **Light/Dark Mode**: Vollständige Theme-Unterstützung mit automatischer Persistenz
 - **Ein-Klick-Toggle**: Sofortiger Wechsel zwischen hellen und dunklen Modi
-- **Konsistentes Design**: Einheitliche Theme-Anwendung über alle UI-Elemente
+- **Konsistentes Design**: Abgestimmte blau-graue Paletten mit klaren Farben für Fokus, Auswahl und Statusmeldungen
 - **Theme-Persistenz**: Einstellungen gespeichert und beim App-Start wiederhergestellt
 - **PowerScoring Dark Mode**: Vollständige Dark-Mode-Unterstützung für alle PowerScoring-Dialoge
 
@@ -512,7 +514,7 @@ Intelligente Spieler-Einteilung basierend auf Leistungsdaten - perfekt für fair
 ### 📦 Installation
 
 #### Automatische Installation (Empfohlen)
-1. Laden Sie die neueste `Setup-DartsTournamentPlanner-v0.1.13.exe` von [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases) herunter
+1. Laden Sie die neueste `Setup-DartsTournamentPlanner-vX.Y.Z.exe` von [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases) herunter
 2. Führen Sie das Installationsprogramm aus (Administrator-Rechte können erforderlich sein)
 3. Folgen Sie dem Installations-Assistenten
 4. Starten Sie die Anwendung über die Desktop-Verknüpfung oder das Startmenü

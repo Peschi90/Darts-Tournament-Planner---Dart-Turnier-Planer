@@ -1,4 +1,75 @@
-﻿## v0.1.20
+﻿## v0.1.29
+- Der Light Mode nutzt ruhige blau-graue Flächen, dezente Dialog- und Buttonverläufe sowie klarere Tabellen-, Auswahl- und Statusfarben.
+
+---
+
+## v0.1.28
+- Der Dark Mode verwendet abgestimmte Flächen, besser lesbare Texte und einheitliche Farben für Auswahl, Fokus und Status. Auch Turnierübersicht, PowerScoring, Import-, Lizenz- und Einstellungsdialoge ziehen beim Themewechsel mit.
+
+---
+
+## v0.1.27
+- Ein manuell erfasster PowerScoring-Spieler kann wieder für Hub-Ergebnisse freigegeben werden. Ein vorhandener Hub-Stand wird wiederhergestellt. Ohne Hub-Stand wartet der Spieler erneut auf sein Ergebnis.
+
+---
+
+## v0.1.26
+- Im laufenden PowerScoring lassen sich Ergebnisse pro Spieler manuell eingeben und korrigieren. Der Gesamtscore bestimmt den 3-Dart-Average und wird in der lokalen Rangliste verwendet. Spätere Hub-Ergebnisse überschreiben eine gespeicherte Korrektur nicht.
+
+---
+
+## v0.1.25
+- Der Druckdialog und die Vorlagenauswahl verwenden die Farben und Bedienelemente der Anwendung. Die Aktionen passen sich der Fensterbreite an.
+- PowerScoring druckt persönliche A4-Startkarten mit Namen, Regel und scanbarem QR-Link der aktiven Hub-Sitzung. Die Karten lassen sich vor dem Drucken in der Vorschau prüfen und einzeln verteilen.
+
+---
+
+## v0.1.24
+### Turnierdruck
+- Die Turniermappe ersetzt die zehn mitgelieferten Einzelvorlagen und wird für Vorschau und Standarddruck im Turnierdialog verwendet.
+- Sie übernimmt Klassen, Gruppen, Titel, Untertitel und Spielphasen aus dem Druckdialog. Enthalten sind Deckblatt, Spielerliste, Paarungsübersicht, Gruppentabellen, Gruppenspielpläne und die ausgewählten Final- und KO-Inhalte.
+- Match-QR-Spalten erscheinen in Gruppen-, KO- und Round-Robin-Spielplänen bei aktiver Hub-Registrierung. Jede Seite erhält die zu ihrem Layout passende Papierausrichtung.
+
+---
+
+## v0.1.23
+### Neue Funktionen
+- Druckdialog: „Alle Klassen“ fasst die ausgewählten Inhalte in einem Druckdokument zusammen. Gruppen werden mit ihrer Klasse angezeigt und getrennt ausgewählt, auch bei gleichen Gruppen-IDs in verschiedenen Klassen.
+- Druckvorlagen: Seiten können einmal oder für jede ausgewählte Gruppe ausgegeben werden. Tabellen, Klassen-/Gruppenbezeichnungen und Textvariablen verwenden je Wiederholung den passenden Kontext; Seitenzahlen laufen über das gesamte Dokument weiter.
+- Textfelder: Variablen über eine Auswahl an der Cursorposition einfügen, einschließlich Turnier, Klasse, Gruppe, Klasse und Gruppe, Phase, Gruppengröße, Matchanzahl und Druckdatum. Vorhandene statische Texte bleiben unverändert, bis die Variablenauflösung aktiviert wird.
+- Matchtabellen: Direkte Aktion zum Einfügen einer QR-Spalte; die Wahl des Online-QR-Felds aktiviert automatisch eine QR-Größe. Die bestehende Hub-Registrierung bleibt Voraussetzung für Online-Match-QR-Codes.
+
+---
+
+## v0.1.22
+### Verbesserungen
+- **Druckvorlagen-Designer überarbeitet**: Anpassbare Bereiche für Elemente, Seiten, Ebenen und Eigenschaften, übersichtliche Werkzeugleiste und Ausrichtungshilfen. Light/Dark und DE/EN folgen dem vorhandenen App-Design.
+- **Tabellenspalten visuell bearbeiten**: Überschriften, Datenfelder, Breiten und QR-Größen direkt bearbeiten, Spalten hinzufügen, entfernen und umsortieren. Vorhandene Spaltenformatierungen bleiben erhalten.
+- **Druckvorschau erneuert**: Native WPF-Seitenansicht mit Miniaturen, Seitenwechsel, Zoom und verzögerter Live-Aktualisierung; Vorschau und Druck nutzen denselben Renderer.
+
+### Fehlerbehebungen
+- Zoom skaliert den gesamten Seiteninhalt. Verschieben und Größenänderung berücksichtigen Raster, gesperrte Elemente und feste gegenüberliegende Kanten; Escape bricht die laufende Änderung ab.
+- Rückgängig/Wiederholen erhält Seitenauswahl und Elemente. Unveränderte Eingaben erzeugen keine Bearbeitungsschritte; Speichern erhält die Genauigkeit vorhandener Maße. Abgebrochene Speicherdialoge verwerfen keine Änderungen.
+- Bibliotheksvorlagen lassen sich als rückgängig machbare Seitenänderung anwenden, ohne den Speicherpfad des Dokuments zu übernehmen.
+- Seiteneinstellungen werden pro Seite konsistent verarbeitet. Ältere Vorlagendateien bleiben lesbar; ungültige Maße werden vor Speichern und Designervorschau gemeldet.
+- Tabellenkopf, Seitenumbrüche, Rotation und Druckstile korrigiert. Teilnehmerlisten verwenden laufende Nummern; klassenübergreifende Listen erfassen alle Klassen. Match-QR-Codes beachten die bestehende Hub-Registrierungsbedingung.
+
+---
+
+## v0.1.21
+### Neue Funktionen
+- **Visueller Drucklayout-Designer**: Neuer Editor zum Erstellen eigener Druckvorlagen per Drag & Drop (Elemente, Tabellen, Bindings, Seiteneinstellungen, Undo/Redo, Zoom, Snap-to-Grid). Vorlagen werden als neutrales JSON gespeichert (kein WPF-XAML), unter `%AppData%\DartTournamentPlaner\PrintTemplates`.
+- **Vorlagen-Vorschau & Direktdruck**: Aus dem bestehenden Druckdialog lassen sich eigene Vorlagen auswählen und mit dem gleichen Renderer wie beim Ausdruck als Vorschau anzeigen oder direkt drucken („Vorschau = Ausdruck").
+- **10 mitgelieferte Standard-Vorlagen**
+
+### Verbesserungen
+- Lizenzprüfung: Layout-Designer und Vorlagen-Aktionen sind an das bestehende Feature `ENHANCED_PRINTING` gekoppelt.
+- Neue Übersetzungen (DE/EN) für Designer- und Vorlagen-Buttons sowie zugehörige Meldungen.
+- Bestehender Standard-Druckpfad bleibt unverändert; die neuen Funktionen sind additiv.
+
+---
+
+## v0.1.20
 ### Neue Funktionen
 - **Board-Verwaltung im Setup-Wizard**: Im Turnier-Einrichtungsassistenten kann pro Klasse optional festgelegt werden, welche Boards verwendet werden sollen. Der Schritt ist Ã¼berspringbar.
 - **PowerScoring direkt aus dem Wizard starten**: Wird der Wizard mit aktiviertem PowerScoring abgeschlossen, Ã¶ffnet sich das PowerScoring automatisch â€“ inklusive aller bereits erfassten Spieler.
