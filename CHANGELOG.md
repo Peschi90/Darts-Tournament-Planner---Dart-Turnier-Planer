@@ -1,4 +1,31 @@
-﻿## v0.1.29
+﻿## v0.2.0
+
+- Der Planner zeigt detaillierte Match- und Spielerstatistiken aus dem Live-Scoring des Tournament Hubs. Dazu gehören interaktive Score-Verteilungen, Formkurven und ein Leg-Replay.
+- Der Hub bewahrt abgeschlossene Aufnahmeverläufe auch bei geschlossenem Planner auf. Beim Wiederverbinden ergänzt der Planner die fehlenden Verläufe in einer separaten, zum Turnier gehörenden Statistikdatei.
+- Average und Dartanzahl basieren bei vollständigem Verlauf auf den bestätigten Aufnahmen. Rückgängig gemachte Eingaben fließen dabei nicht ein.
+- Der Druckdialog erstellt eine Turnierübersicht sowie je eine A4-Seite pro Spieler oder abgeschlossenem Match. Score-Diagramme sind optional.
+- Der öffentliche Statistiklink ist im Planner samt QR-Code verfügbar. Der QR-Code lässt sich als eigene A4-Seite drucken. Bei erneuter Hub-Registrierung bleibt ein vorhandener Link erhalten.
+
+---
+
+## v0.1.31
+- Im Dialog für Match-Ergebnisse ist „Im Browser öffnen“ im hellen Design gut lesbar.
+- In den Spielregeln sind „Rundenregeln konfigurieren“ und „Speichern“ im hellen Design gut lesbar.
+- Die Lizenz des Benutzerkontos wird bei Anmeldung, wiederhergestellter Sitzung und Profiländerung automatisch serverseitig geprüft und nach erfolgreicher Prüfung in den Lizenzbereich übernommen. Ein geöffnetes Lizenzstatusfenster aktualisiert sich mit.
+- Im Turnier-Setup bleibt „UI aktualisieren“ bei geringer Fensterhöhe vollständig lesbar. Die Bedienelemente darüber lassen sich scrollen.
+- Horizontale und vertikale Scrollbalken nutzen die volle verfügbare Strecke. Der Griff erreicht auch in Tabellen den jeweiligen Rand.
+- Schrift, Schaltflächen und Karten im Hauptfenster und in häufig genutzten Dialogen werden schärfer dargestellt. Windows skaliert den Planner passend zum jeweiligen Bildschirm.
+- Der Veranstaltungsort wird nur noch in den Turniermetadaten bearbeitet.
+
+---
+
+## v0.1.30
+- PowerScoring zeigt alle 15 Rundenzahlen in Deutsch und Englisch korrekt an, auch beim Sprachwechsel.
+- Der Tournament Hub erhält bei unveränderten Turnierdaten keine wiederholten Full-Sync-Anfragen. Abgelehnte Übertragungen werden beim nächsten Abgleich erneut versucht.
+
+---
+
+## v0.1.29
 - Der Light Mode nutzt ruhige blau-graue Flächen, dezente Dialog- und Buttonverläufe sowie klarere Tabellen-, Auswahl- und Statusfarben.
 
 ---

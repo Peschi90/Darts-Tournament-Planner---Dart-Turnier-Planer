@@ -297,7 +297,7 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 ### 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+The software is distributed under a **proprietary freemium license**. See [LICENSE.md](LICENSE.md) for the terms.
 
 ---
 
@@ -598,7 +598,7 @@ Intelligente Spieler-Einteilung basierend auf Leistungsdaten - perfekt für fair
 
 ### 📄 Lizenz
 
-Dieses Projekt ist unter einer Proprietären Softwarelizenz (Freemium) lizenziert - siehe die [LICENSE](LICENSE) Datei für Details.
+Die Software wird unter einer **proprietären Freemium-Lizenz** angeboten. Die Bedingungen stehen in [LICENSE.md](LICENSE.md).
 
 ---
 
