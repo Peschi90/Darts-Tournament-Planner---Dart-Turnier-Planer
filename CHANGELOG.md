@@ -1,4 +1,9 @@
-﻿## v0.2.1
+﻿## v0.2.2
+
+- Die Teilnehmerverwaltung zeigt auch für PowerScoring vorgemerkte Anmeldungen. Teilnehmer lassen sich hinzufügen, entfernen und nachträglich einer Gruppe zuweisen.
+- Beim Hub-Import lassen sich Anmeldungen ohne Gruppe manuell zuordnen oder für PowerScoring vormerken. PowerScoring übernimmt die Teilnehmer des aktiven Turniers und behält Vorname, Nachname und Spitzname beim Bearbeiten und Speichern bei.
+
+## v0.2.1
 
 - Der Planner überträgt die Gruppennamen für den öffentlichen Hub-Spielplan und berücksichtigt abgeschlossene Round-Robin-Finals auch nach dem Wechsel ins K.-o.-System.
 
