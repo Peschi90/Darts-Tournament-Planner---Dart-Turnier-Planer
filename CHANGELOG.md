@@ -1,4 +1,8 @@
-﻿## v0.2.0
+﻿## v0.2.1
+
+- Der Planner überträgt die Gruppennamen für den öffentlichen Hub-Spielplan und berücksichtigt abgeschlossene Round-Robin-Finals auch nach dem Wechsel ins K.-o.-System.
+
+## v0.2.0
 
 - Der Planner zeigt detaillierte Match- und Spielerstatistiken aus dem Live-Scoring des Tournament Hubs. Dazu gehören interaktive Score-Verteilungen, Formkurven und ein Leg-Replay.
 - Der Hub bewahrt abgeschlossene Aufnahmeverläufe auch bei geschlossenem Planner auf. Beim Wiederverbinden ergänzt der Planner die fehlenden Verläufe in einer separaten, zum Turnier gehörenden Statistikdatei.
