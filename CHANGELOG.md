@@ -1,4 +1,10 @@
-﻿## v0.2.2
+﻿## v0.2.3
+
+- Der Hub-Import lädt Turniere auch dann, wenn für dieselbe Klasse Gruppen-, K.-o.- und Finalrundenregeln hinterlegt sind. Die Regeln werden der jeweiligen Runde zugeordnet.
+- Die Importvorschau zeigt die angemeldeten Spieler und ihre Anzahl direkt oben. „Mit PowerScoring importieren“ steht auch dann zur Verfügung, wenn alle Spieler bereits einer Gruppe zugewiesen sind. Die Gruppenzuordnungen bleiben beim Import erhalten.
+- Beim Verarbeiten von Hub-Logzeilen mit Präfixen wie `[WS-CONNECTION]` entfallen die irreführenden JSON-Ausnahmen in der Visual-Studio-Debugausgabe.
+
+## v0.2.2
 
 - Die Teilnehmerverwaltung zeigt auch für PowerScoring vorgemerkte Anmeldungen. Teilnehmer lassen sich hinzufügen, entfernen und nachträglich einer Gruppe zuweisen.
 - Beim Hub-Import lassen sich Anmeldungen ohne Gruppe manuell zuordnen oder für PowerScoring vormerken. PowerScoring übernimmt die Teilnehmer des aktiven Turniers und behält Vorname, Nachname und Spitzname beim Bearbeiten und Speichern bei.
